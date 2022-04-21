@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DOM Manipulation</title>
+    <script src="book.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,300&display=swap" rel="stylesheet">
+  <body>
+    <h1>Welcome to your library</h1>
+    <button id="btn">Add book</button>
+
+    <div class="bookList" id="bookList"></div>
+
+    <div class="form-popup" id="myForm">
+        <form class="form-container" id="form">
+          <h1>Add book</h1>
+      
+          <label for="title"><b>Title</b></label>
+          <input type="text" placeholder="Book title" name="title" required id="title">
+
+          <label for="author"><b>Author</b></label>
+          <input type="text" placeholder="Author's name" name="author" required id="author">
+      
+          <label for="pageCount"><b>Page Count</b></label>
+          <input type="text" placeholder="Number of pages" name="pageCount" required id="pageCount">
+
+          <label for="haveRead"><b>Have you read this book?</b></label>
+          <input type="checkbox" name="haveRead" id="haveRead">
+      
+          <button type="button" class="btn" id="closeForm">Add to library</button>
+        </form>
+      </div>
+
+  </body>
+      
+</script>
+</html>
